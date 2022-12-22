@@ -19,6 +19,7 @@
     font-size: 12px;
     line-height: 20px;
     letter-spacing: 1px;
+    margin-bottom: 30px;
 }
 .btn:hover {
     background: #2196F3;
@@ -58,4 +59,8 @@
     font-size: 12px;
     line-height: 20px;
     letter-spacing: 1px;
+}
+.selected {
+    background: #2196F3;
+    color: #FFFFFF;
 }
