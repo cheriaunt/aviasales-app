@@ -19,7 +19,7 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "react-scripts build",
+    "build": "cross-env CI=false react-scripts build",
     "test": "react-scripts test",
     "lint": "eslint ./src",
     "lint:fix": "eslint ./src --fix --color",
@@ -58,10 +58,11 @@
     ]
   },
   "devDependencies": {
+    "@babel/eslint-parser": "^7.19.1",
     "@types/uuid": "^9.0.0",
     "antd": "^5.1.0",
-    "babel-eslint": "^10.1.0",
     "classnames": "^2.3.2",
+    "cross-env": "^7.0.3",
     "eslint": "^8.29.0",
     "eslint-config-airbnb": "^19.0.4",
     "eslint-config-prettier": "^8.5.0",
