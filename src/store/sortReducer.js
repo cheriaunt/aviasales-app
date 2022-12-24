@@ -25,4 +25,5 @@ function sortReducer(state = initialState, action) {
 export const sortCheap = (payload) => ({ type: SORT_CHEAP, payload });
 export const sortFast = (payload) => ({ type: SORT_FAST, payload });
 export const sortOptim = (payload) => ({ type: SORT_OPTIM, payload });
+
 export default sortReducer;
